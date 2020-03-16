@@ -48,13 +48,11 @@ class TrackInfoViewModel: TrackInfoViewModelProtocol {
       self?.albumImage.value = new?.albumImage
       self?.duration.value = self?.getTimeString(from: new?.duration)
     }
-//    self.player.currentTime.addObserver(anyObject: self) { [weak self] (old: CMTime?, new: CMTime?) in
-//      guard let time = new else {return}
-//      self?.currentTime.value = self?.getTimeString(from: time)
-//      self?.getCurrentProgress(for: time)
-//      guard self?.progress.value == 1 else {return}
-//      self?.player.trackIsOver()
-//    }
+    self.player.currentTime.addObserver(anyObject: self) { [weak self] (old: CMTime?, new: CMTime?) in
+      guard let time = new else {return}
+      self?.currentTime.value = self?.getTimeString(from: time)
+      self?.getCurrentProgress(for: time)
+    }
   }
   
   func getTimeString(from time: CMTime?) -> String {
