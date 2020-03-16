@@ -641,7 +641,7 @@
 				DEVELOPMENT_TEAM = 73BDKJQMBT;
 				INFOPLIST_FILE = "$(SRCROOT)/iOSArchitecturesDemo/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ekireev.iOSArchitecturesDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = im.iOSArchitecturesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -657,7 +657,7 @@
 				DEVELOPMENT_TEAM = 73BDKJQMBT;
 				INFOPLIST_FILE = "$(SRCROOT)/iOSArchitecturesDemo/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ekireev.iOSArchitecturesDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = im.iOSArchitecturesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
